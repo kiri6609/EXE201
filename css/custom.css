@@ -1,0 +1,104 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+.nav-shop{
+    padding: 0 1rem;
+}
+
+.beenature-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.shop-nav{
+    display: flex;
+    gap: 5px;;
+}
+
+.shop-sign{
+    font-size: 12px;
+    align-content: center;
+    transform: rotate(-90deg);
+}
+
+.intro-section{
+    justify-content: center;
+    /* gap: 13px; */
+}
+
+.intro-content{
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 600px;
+}
+
+.intro-container{
+    background-color: #FFE8D2;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.intro-header{
+    display: flex;
+    gap: 5px;
+}
+
+.intro-icon i{
+    font-size: 30px;
+}
+
+.intro-title p {
+    padding-top: 7px; 
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.intro-img-container img{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 500px;
+}
+
+.product-img-container img{
+    width: 520px;
+}
+
+.product-content-container{
+    background-color: #50792c;
+    text-align: justify;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-content-title{
+    font-weight: bold;
+    color: #d0a932;
+}
+
+.product-des{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.shop-more{
+    text-align: center;
+}
+
+.shop-more p a:hover{
+    color: white;
+}
+
+.img-product{
+    width: 330px;
+    height: 330px;
+    object-fit: cover; /* Cắt ảnh để vừa với khung */
+    object-position: center; /* Giữ ảnh ở giữa */
+    display: block;
+}
